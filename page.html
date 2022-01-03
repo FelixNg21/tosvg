@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Colouring App</title>
+    <link rel="icon" href=""> <!-- TODO: ADD ICON-->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Adding gsap for animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+    <!-- Including jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div class='container'>
+        <div class='myTitle'>SVG Coloring Book</div>
+        <div class='held' id='ActivityDIV'></div>
+        <div class='held'>
+          <a id="btnRandom"       class="button gray" onclick="btnRandom()">Random Color</a>
+          <a id="btnClear"        class="button gray" onclick="btnClear()">Clear Color</a>
+          <a id="btnDownloadSVG"  class="button gray" onclick="btnDownload()">Download SVG</a>
+          
+        </div>
+      </div>
+
+      <script src="./app.js"></script>
+      
+</body>
+</html>
