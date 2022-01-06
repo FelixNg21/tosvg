@@ -1,8 +1,18 @@
-.holder{
-    width:700px;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+.container{
+    margin: 0;
+    width:100vw;
+    height:100vh;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+  }
+  .myTitle{
+      position: relative;
   }
   .held{
     position:relative;
+    
+
     overflow:hidden;
   }
   .button{
@@ -49,7 +59,8 @@
   }
   
   #ActivityDIV svg{
-    width:100%;
+    width:100vw;
+    height: 90vh;
     display:inline-block;
   }
   #ActivityDIV svg path{

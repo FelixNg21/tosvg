@@ -1,0 +1,26 @@
+{
+  "name": "tosvg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelixNg21/tosvg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelixNg21/tosvg/issues"
+  },
+  "homepage": "https://github.com/FelixNg21/tosvg#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "engines": {
+    "node": "17.x"
+  }
+}
